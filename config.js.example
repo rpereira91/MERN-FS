@@ -1,0 +1,4 @@
+module.exports = {
+    MONGODB: 'mongodb+srv://first_user_1:<password>@cluster0.t7j6r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+    SECRET_KEY: ''
+}
