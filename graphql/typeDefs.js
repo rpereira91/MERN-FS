@@ -37,6 +37,7 @@ module.exports = gql `
         email: String!, 
     }
     type Query {
+        getUsers: [User]
         getPosts: [Post]
         getPost(postId: ID!): Post
     }
